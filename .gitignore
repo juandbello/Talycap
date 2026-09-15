@@ -1,0 +1,21 @@
+# .NET y Visual Studio
+**/bin/
+**/obj/
+**/.vs/
+*.user
+*.suo
+
+# Angular
+**/node_modules/
+**/dist/
+**/.angular/
+**/coverage/
+npm-debug.log*
+
+# Archivos locales
+.env
+.env.*
+!.env.example
+*.mdf
+*.ldf
+*.bak

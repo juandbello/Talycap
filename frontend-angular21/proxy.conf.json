@@ -1,4 +1,4 @@
 {
-  "/weather-api": { "target": "https://api.open-meteo.com", "secure": true, "changeOrigin": true, "pathRewrite": { "^/weather-api": "" } },
-  "/catalog-api": { "target": "https://api.tvmaze.com", "secure": true, "changeOrigin": true, "pathRewrite": { "^/catalog-api": "" } }
+  "/weather-api/**": { "target": "https://api.open-meteo.com", "secure": true, "changeOrigin": true, "pathRewrite": { "^/weather-api": "" } },
+  "/catalog-api/**": { "target": "https://api.tvmaze.com", "secure": true, "changeOrigin": true, "pathRewrite": { "^/catalog-api": "" } }
 }

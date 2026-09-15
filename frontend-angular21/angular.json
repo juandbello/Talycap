@@ -26,6 +26,14 @@
             ]
           }
         },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "tsconfig.spec.json",
+            "buildTarget": "catalogo-cine:build",
+            "runner": "vitest"
+          }
+        },
         "serve": {
           "builder": "@angular/build:dev-server",
           "options": {

@@ -29,7 +29,7 @@ CREATE TABLE Empleados (
     Apellido VARCHAR(80) NOT NULL,
     Email VARCHAR(150) NOT NULL UNIQUE,
     FechaIngreso DATE NOT NULL,
-    IdDepartamento INT NULL,
+    IdDepartamento INT NOT NULL,
     CONSTRAINT FK_Empleados_Departamentos
         FOREIGN KEY (IdDepartamento)
         REFERENCES Departamentos(IdDepartamento)
@@ -122,6 +122,7 @@ LEFT JOIN Departamentos d
 
 -- Consulta 2: Cantidad de empleados por proyecto
 SELECT
+    p.IdProyecto,
     p.Nombre,
     p.Presupuesto,
     COUNT(ep.IdEmpleado) AS EmpleadosAsignados
@@ -129,6 +130,7 @@ FROM Proyectos p
 LEFT JOIN EmpleadoProyecto ep
     ON p.IdProyecto = ep.IdProyecto
 GROUP BY
+    p.IdProyecto,
     p.Nombre,
     p.Presupuesto;
 
@@ -190,6 +192,7 @@ BEGIN
         e.Apellido,
         e.Email,
         e.FechaIngreso,
+        e.IdDepartamento,
         d.Nombre AS Departamento
     FROM Empleados e
     LEFT JOIN Departamentos d
@@ -242,6 +245,10 @@ GO
 -- 8. BACKUP Y RESTORE (REFERENCIA)
 --==============================================================
 
+-- Crear un backup completo en una carpeta accesible por el servicio SQL Server.
+-- Verificarlo con RESTORE VERIFYONLY y revisar sus archivos con RESTORE FILELISTONLY.
+-- Restaurar una copia con RESTORE DATABASE ... WITH MOVE y validar con DBCC CHECKDB.
+
 /*
 -- Crear Backup
 BACKUP DATABASE EmpresaDB
@@ -267,23 +274,8 @@ DBCC CHECKDB ('EmpresaDB');
 -- 9. BONUS - IMPORTAR DATOS DESDE API
 --==============================================================
 
-/*
-CREATE TABLE #UsuariosAPI
-(
-    id INT,
-    name VARCHAR(200),
-    username VARCHAR(100),
-    email VARCHAR(150)
-);
-
--- Cargar previamente el JSON mediante SSIS o PowerShell
-
-SELECT
-    e.Email AS CorreoEmpleado,
-    u.email AS CorreoAPI
-FROM Empleados e
-FULL JOIN #UsuariosAPI u
-    ON LOWER(e.Email) = LOWER(u.email);
-*/
+-- Ejecutar bonus-api.sql por separado. Descarga usuarios de JSONPlaceholder,
+-- llena #UsuariosAPI y compara los correos con Empleados.
+-- Requiere OLE Automation habilitado en una instancia de SQL Server en Windows.
 
 --========================= FIN ================================
