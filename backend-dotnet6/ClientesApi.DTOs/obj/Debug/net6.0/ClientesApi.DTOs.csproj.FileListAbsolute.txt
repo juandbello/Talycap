@@ -1,0 +1,12 @@
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\bin\Debug\net6.0\ClientesApi.DTOs.deps.json
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\bin\Debug\net6.0\ClientesApi.DTOs.dll
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\bin\Debug\net6.0\ClientesApi.DTOs.pdb
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\obj\Debug\net6.0\ClientesApi.DTOs.csproj.AssemblyReference.cache
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\obj\Debug\net6.0\ClientesApi.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\obj\Debug\net6.0\ClientesApi.DTOs.AssemblyInfoInputs.cache
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\obj\Debug\net6.0\ClientesApi.DTOs.AssemblyInfo.cs
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\obj\Debug\net6.0\ClientesApi.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\obj\Debug\net6.0\ClientesApi.DTOs.dll
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\obj\Debug\net6.0\refint\ClientesApi.DTOs.dll
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\obj\Debug\net6.0\ClientesApi.DTOs.pdb
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.DTOs\obj\Debug\net6.0\ref\ClientesApi.DTOs.dll

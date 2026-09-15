@@ -1,0 +1,17 @@
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\bin\Debug\net6.0\ClientesApi.Repositories.deps.json
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\bin\Debug\net6.0\ClientesApi.Repositories.dll
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\bin\Debug\net6.0\ClientesApi.Repositories.pdb
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\bin\Debug\net6.0\ClientesApi.DTOs.dll
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\bin\Debug\net6.0\ClientesApi.DTOs.pdb
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\obj\Debug\net6.0\ClientesApi.Repositories.csproj.AssemblyReference.cache
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\obj\Debug\net6.0\ClientesApi.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\obj\Debug\net6.0\ClientesApi.Repositories.AssemblyInfoInputs.cache
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\obj\Debug\net6.0\ClientesApi.Repositories.AssemblyInfo.cs
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\obj\Debug\net6.0\ClientesApi.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\obj\Debug\net6.0\ClientesApi.Repositories.csproj.CopyComplete
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\obj\Debug\net6.0\ClientesApi.Repositories.dll
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\obj\Debug\net6.0\refint\ClientesApi.Repositories.dll
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\obj\Debug\net6.0\ClientesApi.Repositories.pdb
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\obj\Debug\net6.0\ref\ClientesApi.Repositories.dll
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\bin\Debug\net6.0\ClientesApi.Repositories.runtimeconfig.json
+C:\Users\57320\OneDrive\Escritorio\Documentos\Panbenito\backend-dotnet6\ClientesApi.Repositories\obj\Debug\net6.0\ClientesApi.Repositories.genruntimeconfig.cache
