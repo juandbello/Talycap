@@ -1,6 +1,6 @@
 # Clientes API (.NET 6)
 
-Consulta de clientes por identificación. La solución está separada en API, Services, Repositories y DTOs; usa EF Core y Swagger.
+Consulta de clientes por identificación. La solución contiene un único proyecto .NET y mantiene las responsabilidades separadas en carpetas: Controllers, Services, Repositories, DTOs, Data, Entities e Interfaces. Usa EF Core y Swagger.
 
 ## Requisitos
 
