@@ -1,6 +1,6 @@
-using ClientesApi.DTOs;
+using ClientesApi.Models;
 
-namespace ClientesApi.Repositories.Interfaces;
+namespace ClientesApi.Repositories;
 
 public interface IClienteRepository
 {

@@ -1,8 +1,8 @@
-using ClientesApi.Repositories.Data;
-using ClientesApi.Repositories.Interfaces;
-using ClientesApi.Repositories.Repositories;
-using ClientesApi.Services.Interfaces;
-using ClientesApi.Services.Services;
+using ClientesApi.Data;
+
+using ClientesApi.Repositories;
+
+using ClientesApi.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,9 +1,9 @@
-using ClientesApi.DTOs;
-using ClientesApi.Repositories.Interfaces;
-using ClientesApi.Repositories.Data;
+using ClientesApi.Models;
+
+using ClientesApi.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace ClientesApi.Repositories.Repositories;
+namespace ClientesApi.Repositories;
 
 public sealed class ClienteRepository : IClienteRepository
 {

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using ClientesApi.Repositories.Entities;
+using ClientesApi.Models;
 
-namespace ClientesApi.Repositories.Data;
+namespace ClientesApi.Data;
 
 public sealed class ClientesDbContext : DbContext
 {

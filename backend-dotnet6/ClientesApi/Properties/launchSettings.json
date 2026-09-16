@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "ClientesApi.Api": {
+    "ClientesApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

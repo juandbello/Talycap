@@ -1,8 +1,7 @@
-using ClientesApi.DTOs;
-using ClientesApi.Repositories.Interfaces;
-using ClientesApi.Services.Interfaces;
+using ClientesApi.Models;
+using ClientesApi.Repositories;
 
-namespace ClientesApi.Services.Services;
+namespace ClientesApi.Services;
 
 public sealed class ClienteService : IClienteService
 {

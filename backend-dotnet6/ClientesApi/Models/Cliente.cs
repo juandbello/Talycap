@@ -1,4 +1,4 @@
-namespace ClientesApi.Repositories.Entities;
+namespace ClientesApi.Models;
 
 public sealed class Cliente
 {

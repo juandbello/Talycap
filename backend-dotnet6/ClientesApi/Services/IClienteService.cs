@@ -1,6 +1,6 @@
-using ClientesApi.DTOs;
+using ClientesApi.Models;
 
-namespace ClientesApi.Services.Interfaces;
+namespace ClientesApi.Services;
 
 public interface IClienteService
 {

@@ -1,4 +1,4 @@
-namespace ClientesApi.DTOs;
+namespace ClientesApi.Models;
 
 public sealed class ClienteDto
 {

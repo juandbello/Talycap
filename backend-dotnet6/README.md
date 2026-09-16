@@ -1,6 +1,6 @@
 # Clientes API (.NET 6)
 
-Consulta de clientes por identificación. La solución contiene un único proyecto .NET y mantiene las responsabilidades separadas en carpetas: Controllers, Services, Repositories, DTOs, Data, Entities e Interfaces. Usa EF Core y Swagger.
+Consulta de clientes por identificación. La solución contiene un único proyecto llamado `ClientesApi`, organizado en Controllers, Models, Repositories, Services y Data. Usa EF Core y Swagger.
 
 ## Requisitos
 
@@ -8,17 +8,17 @@ Consulta de clientes por identificación. La solución contiene un único proyec
 
 ## Iniciar
 
-La conexión de desarrollo está en `ClientesApi.Api/appsettings.Development.json`: servidor `(localdb)\MSSQLLocalDB`, base `DBClientes` y autenticación de Windows. La base ya quedó creada en este equipo.
+La conexión de desarrollo está en `ClientesApi/appsettings.Development.json`: servidor `(localdb)\MSSQLLocalDB`, base `DBClientes` y autenticación de Windows. La base ya quedó creada en este equipo.
 
 Desde esta carpeta ejecuta:
 
 ```powershell
 dotnet restore ClientesApi.sln
 dotnet build ClientesApi.sln --no-restore
-dotnet run --project ClientesApi.Api --launch-profile ClientesApi.Api
+dotnet run --project ClientesApi --launch-profile ClientesApi
 ```
 
-Abre [Swagger](http://localhost:5121/swagger). En Visual Studio 2022 también puedes abrir `ClientesApi.sln`, seleccionar `ClientesApi.Api` como proyecto de inicio y ejecutar con F5.
+Abre [Swagger](http://localhost:5121/swagger). En Visual Studio 2022 también puedes abrir `ClientesApi.sln`, seleccionar `ClientesApi` como proyecto de inicio y ejecutar con F5.
 
 Para preparar la base en otro equipo, ejecuta `database.sql` desde SSMS en tu instancia. También puedes usar `sqlcmd -S "(localdb)\MSSQLLocalDB" -E -f 65001 -i database.sql`. El script se puede repetir sin duplicar los clientes de ejemplo.
 

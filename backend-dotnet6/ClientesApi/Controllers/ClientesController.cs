@@ -1,9 +1,9 @@
-using ClientesApi.DTOs;
+using ClientesApi.Models;
 using System.ComponentModel.DataAnnotations;
-using ClientesApi.Services.Interfaces;
+using ClientesApi.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ClientesApi.Api.Controllers;
+namespace ClientesApi.Controllers;
 
 [ApiController]
 [Route("api/clientes")]
